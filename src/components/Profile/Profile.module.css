@@ -1,0 +1,75 @@
+.userCard {
+    width: 480px;
+    border: 2px solid #000;
+    border-radius: 12px;
+
+    padding-top: 24px;
+    
+    background-color: rgb(229, 223, 223);
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .userImg {
+    margin: 0 auto;
+    width: 180px;
+    border-radius: 50%;
+    
+    background-color: #242120;
+    box-shadow: 0 4px 4px #242120;
+  }
+  
+  .userName {
+    margin-top: 20px;
+
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .userTag {
+    margin-top: 12px;
+
+    color: grey;
+    font-size: 26px;
+  }
+  
+  .userLocation {
+    color: grey;
+    font-size: 32px;
+  }
+  
+  .boxList {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 16px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    
+    background-color: rgba(183, 177, 177, 0.818);
+  }
+  
+  .boxItem {
+    padding: 16px 8px;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 2px solid grey;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: 400;
+
+    color: #000;
+  }
+  
+  .value {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
