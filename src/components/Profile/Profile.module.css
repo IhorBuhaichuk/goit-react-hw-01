@@ -19,6 +19,8 @@
     
     background-color: #242120;
     box-shadow: 0 4px 4px #242120;
+
+    cursor: pointer;
   }
   
   .userName {
@@ -59,6 +61,8 @@
     flex: 1;
     flex-direction: column;
     border: 2px solid grey;
+
+    cursor: pointer;
   }
   
   .title {
