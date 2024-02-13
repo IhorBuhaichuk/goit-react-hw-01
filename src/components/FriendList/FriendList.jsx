@@ -8,7 +8,14 @@ function FriendListItem ({avatar, name, isOnline}) {
       );
       return (
         <div>
-          <img className={style.friendsImg} src={avatar} alt="Avatar" width="60" />
+          <img
+          className={style.friendsImg}
+          src={avatar}
+          alt="Avatar"
+          width="60"
+          aria-label={`Avatar of ${name}`}
+/>
+
           <p className={style.friendsName}>{name}</p>
           <p className={isOnLine}>{isOnline ? "Online" : "Offline"}</p>
         </div>
